@@ -12,6 +12,7 @@ Aplikasi ini memungkinkan pengguna untuk menyimpan dan mengelola daftar buku yan
 - Menandai buku sebagai selesai atau belum selesai dibaca.
 - Menghapus buku dari daftar.
 - Menampilkan daftar buku yang tersimpan.
+- Memindahkan buku antar rak
 - Melakukan pencarian buku
 
 ## Teknologi
