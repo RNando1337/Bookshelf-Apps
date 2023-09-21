@@ -1,0 +1,135 @@
+:root {
+    --bg-primary: #206b7e;
+    --bg-secondary: #F2BE22;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Poppins;
+}
+
+.header {
+    background-color: var(--bg-primary);
+    color: #FFF;
+    justify-content: center;
+    display: flex;
+    padding: 15px;
+}
+
+.border_text {
+    background-color: var(--bg-secondary);
+    border-radius: 5px;
+    padding: 8px;
+}
+
+.container {
+    padding: 20px;
+    margin: 20px;
+}
+
+.container > .content {
+    max-width: 1080px;
+    width: 80%;
+    position: relative;
+    right: 50%;
+    left: 50%;
+    transform: translate(-50%, 0%);
+}
+
+.title {
+    margin-bottom: 15px;
+    color: #FFF;
+    font-style: italic;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+
+.form-checkbox {
+    margin: 20px 10px 20px;
+}
+
+.form-control {
+    margin-top: 5px;
+    padding: 10px 20px;
+    border: transparent;
+    border-radius: 5px;
+}
+
+.btn {
+    margin: 10px;
+    padding: 5px 15px;
+    background-color: var(--bg-secondary);
+    border-radius: 8px;
+    border: transparent;
+    color: #FFF;
+    font-size: medium;
+}
+
+.card {
+    align-items: center;
+    justify-content: center;
+    background-color: var(--bg-primary);
+    border-radius: 15px;
+    padding: 10px;
+    color: #FFF;
+}
+
+.grid-content {
+    position: relative;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 15px;
+    width: stretch;
+}
+
+.grid-content > .grid-item {
+    background-color: var(--bg-primary);
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.grid-content > .grid-item > * {
+    display: block;
+    margin-top: 7px;
+}
+
+.btn-pindah {
+    padding: 5px 15px;
+    background-color: #95ff43;
+    border: none;
+    border-radius: 5px;
+    color: #FFF;
+}
+
+.btn-hapus {
+    padding: 5px 15px;
+    background-color: #ff4343;
+    border: none;
+    border-radius: 5px;
+    color: #FFF;
+}
+
+.text-green {
+    color: #98ff79;
+}
+
+.text-red {
+    color: #ff9696;
+}
+
+.mt-1 {
+    margin-top: 1.5rem;
+}
+
+@media only screen and (max-width: 768px) {
+    .grid-content {
+        grid-template-columns: auto;
+    }
+}
